@@ -132,7 +132,7 @@ int main(){
       begin = std::chrono::steady_clock::now();
       std::vector<int> myVec(randNumbers.begin(), randNumbers.end());
       std::chrono::duration<double> last=  std::chrono::steady_clock::now() - begin;
-      std::cout << "************ Time to create and fill std::vector<int,SIZE>: " << last.count() << std::endl;
+      std::cout << "************ Time to create and fill std::vector<int>: " << last.count() << std::endl;
       accumContainer(myVec,"std::vector<int>");
       sumContainer(myVec,"std::vector<int>");
       sumContainerData(myVec,"std::vector<int>");
