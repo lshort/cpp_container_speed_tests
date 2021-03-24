@@ -1,0 +1,3 @@
+*.txt
+gcc_vector_speed_test
+clang_vector_speed_test
